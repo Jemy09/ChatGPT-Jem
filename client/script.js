@@ -75,7 +75,7 @@ const handleSubmit = async ( e ) => {
 
     loader(messageDiv);
 
-    const response = await fetch('http://localhost:3600', {
+    const response = await fetch('https://gpt3-server.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
